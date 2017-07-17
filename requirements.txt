@@ -6,7 +6,7 @@ chardet==3.0.4
 contextlib2==0.5.5
 Django==1.11.3
 djangorestframework==3.6.3
-django-admin-list-filter-dropdown
+#django-admin-list-filter-dropdown
 fabric3
 idna==2.5
 kombu==4.0.2
