@@ -1,3 +1,5 @@
 from python:3.5-alpine
 
-pip install django==1.11.3
+RUN apk update && apk add py-pip
+
+RUN pip install django==1.11.3
