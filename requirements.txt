@@ -10,7 +10,6 @@ django-admin-list-filter-dropdown
 fabric3
 idna==2.5
 kombu==4.0.2
-psycopg2
 py==1.4.34
 pyfcm==1.3.1
 pytest==3.1.3
