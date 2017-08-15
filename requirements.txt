@@ -9,6 +9,7 @@ djangorestframework==3.6.3
 djangorestframework-jwt
 django-admin-list-filter-dropdown
 django-daterange-filter
+django_redis
 fabric3
 idna==2.5
 kombu==4.0.2
