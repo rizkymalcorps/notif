@@ -1,7 +1,7 @@
 from python:3.5-alpine
 
 RUN apk update  && \
-    apk --no-cache --virtual add gcc openssh py-pip build-base libffi-dev openssh-client openssl-dev
+    apk --no-cache --virtual add gcc openssh py-pip build-base libffi-dev openssh-client openssl-dev git
 
 
 ADD ./requirements.txt /opt/requirements.txt
