@@ -7,3 +7,4 @@ RUN apk update  && \
 ADD ./requirements.txt /opt/requirements.txt
 
 RUN pip install -r /opt/requirements.txt
+RUN pip install psycopg2
